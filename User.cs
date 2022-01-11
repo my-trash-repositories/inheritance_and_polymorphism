@@ -18,6 +18,7 @@ namespace UserNameSpace
         }
 
         public bool verifyLogin(string id, string pass) => this.user_id.Equals(id) && this.password.Equals(pass);
+        // the UML in the Handout from ELMS didn't specify what to do with this function so I'll just leave this here like this
 
         abstract public void updatePassword(string newPassword);
     }

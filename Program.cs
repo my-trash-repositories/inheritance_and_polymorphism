@@ -83,7 +83,7 @@ namespace UserNameSpace
         private static void updatePassword()
         {
             Console.WriteLine("\nUPDATE PASSWORD");
-            Console.WriteLine("Enter Admin name");
+            Console.WriteLine("Enter new password");
             string newPassword = Console.ReadLine();
             admin.updatePassword(newPassword);
 
@@ -93,7 +93,7 @@ namespace UserNameSpace
         private static void updateAdminName()
         {
             Console.WriteLine("\nUPDATE ADMIN NAME");
-            Console.WriteLine("Enter Admin password");
+            Console.WriteLine("Enter new Name");
             string newAdminName = Console.ReadLine();
             admin.updateAdminName(newAdminName);
 
